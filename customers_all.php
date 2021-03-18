@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="customer-container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -68,12 +68,11 @@
       </div>
     </div>  
 
-    <footer class="bg-dark text-center text-lg-start footer-without-fixed">
-      <div class="text-center text-light p-3">
-        <a href="index.php">Home</a> | <a href="customers_all.php">View Customers</a> | <a href="transaction.php">Transaction History</a> <br>
-        Developed by Dhruv Solanki
-      </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  </body>
-</html>
+<?php
+    include 'footer.php';
+?>
+
+<script>
+    var foot = document.getElementsByTagName("footer")[0];
+    foot.classList.add("footer-without-fixed");
+</script>

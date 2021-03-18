@@ -22,7 +22,7 @@
                 <a class="nav-link active" aria-current="page" href="index.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="customer_all.php">View Customers</a>
+                <a class="nav-link" href="customers_all.php">View Customers</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="transaction.php">Transaction History</a>

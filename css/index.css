@@ -1,6 +1,7 @@
 .main-container{
     background-image: url("../images/background-main.jpeg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
@@ -20,7 +21,6 @@
 .center{
     margin-top: 120px;
     padding: 20px;
-    color: gray;
 }
 .title {
     font-family: 'Poppins', sans-serif !important;
